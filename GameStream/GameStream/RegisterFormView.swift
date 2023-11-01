@@ -17,11 +17,15 @@ struct RegisterFormView: View {
                 Section{
                     Text("Elije una foto de perfil").foregroundStyle(Color(.white)).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     Text("puedes cambiarla o elegirla mas tarde").font(.caption).foregroundStyle(Color(.gray))
+                    
                     Button {
                         changeProfilePhoto()
                     } label: {
                         ZStack{
                             Image("profilePhoto")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 80, height: 80)
                             Image("cameraIcon")
                             Circle()
                                 .stroke(.white, lineWidth: 2)
