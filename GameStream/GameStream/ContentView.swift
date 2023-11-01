@@ -21,7 +21,7 @@ struct Pantalla01: View {
 }
 
 #Preview("pantalla02") {
-    Image("pantalla02").padding(10)
+    Image("pantalla02").resizable()
 }
 
 #Preview("pantalla01") {
