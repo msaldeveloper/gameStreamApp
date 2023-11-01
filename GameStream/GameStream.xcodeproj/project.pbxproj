@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4949E2D2AF2015E005E94F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DA98872AF0CA8300E0D5C5 /* ContentView.swift */; };
+		B4949E2F2AF234E3005E94F4 /* RegisterFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4949E2E2AF234E3005E94F4 /* RegisterFormView.swift */; };
+		B4949E312AF2356C005E94F4 /* InitScreenSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4949E302AF2356C005E94F4 /* InitScreenSelector.swift */; };
+		B4ADD9742AF1B4D90055E3EC /* InitSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADD9732AF1B4D90055E3EC /* InitSessionView.swift */; };
 		B4DA98862AF0CA8300E0D5C5 /* GameStreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DA98852AF0CA8300E0D5C5 /* GameStreamApp.swift */; };
-		B4DA98882AF0CA8300E0D5C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DA98872AF0CA8300E0D5C5 /* ContentView.swift */; };
 		B4DA988A2AF0CA8500E0D5C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DA98892AF0CA8500E0D5C5 /* Assets.xcassets */; };
 		B4DA988D2AF0CA8500E0D5C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DA988C2AF0CA8500E0D5C5 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4949E2E2AF234E3005E94F4 /* RegisterFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormView.swift; sourceTree = "<group>"; };
+		B4949E302AF2356C005E94F4 /* InitScreenSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitScreenSelector.swift; sourceTree = "<group>"; };
+		B4ADD9732AF1B4D90055E3EC /* InitSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitSessionView.swift; sourceTree = "<group>"; };
 		B4DA98822AF0CA8300E0D5C5 /* GameStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DA98852AF0CA8300E0D5C5 /* GameStreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStreamApp.swift; sourceTree = "<group>"; };
-		B4DA98872AF0CA8300E0D5C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4DA98872AF0CA8300E0D5C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 1; };
 		B4DA98892AF0CA8500E0D5C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4DA988C2AF0CA8500E0D5C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +57,11 @@
 		B4DA98842AF0CA8300E0D5C5 /* GameStream */ = {
 			isa = PBXGroup;
 			children = (
-				B4DA98852AF0CA8300E0D5C5 /* GameStreamApp.swift */,
 				B4DA98872AF0CA8300E0D5C5 /* ContentView.swift */,
+				B4DA98852AF0CA8300E0D5C5 /* GameStreamApp.swift */,
+				B4949E302AF2356C005E94F4 /* InitScreenSelector.swift */,
+				B4ADD9732AF1B4D90055E3EC /* InitSessionView.swift */,
+				B4949E2E2AF234E3005E94F4 /* RegisterFormView.swift */,
 				B4DA98892AF0CA8500E0D5C5 /* Assets.xcassets */,
 				B4DA988B2AF0CA8500E0D5C5 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4DA98882AF0CA8300E0D5C5 /* ContentView.swift in Sources */,
+				B4ADD9742AF1B4D90055E3EC /* InitSessionView.swift in Sources */,
+				B4949E2F2AF234E3005E94F4 /* RegisterFormView.swift in Sources */,
 				B4DA98862AF0CA8300E0D5C5 /* GameStreamApp.swift in Sources */,
+				B4949E312AF2356C005E94F4 /* InitScreenSelector.swift in Sources */,
+				B4949E2D2AF2015E005E94F4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "30-swiftui-apps-ios-vector-camera.png",
       "idiom" : "universal"
     }
   ],
