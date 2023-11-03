@@ -90,7 +90,7 @@ struct RegisterFormView: View {
                     }.padding(EdgeInsets(top: 0, leading: 18, bottom: 0, trailing: 18))
                     
                     Button {
-                        iniciarSesion()
+                        //iniciarSesion()
                     } label: {
                         Text("REGÍSTRATE")
                             .fontWeight(.bold)

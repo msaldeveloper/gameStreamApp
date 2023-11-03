@@ -10,6 +10,11 @@
 		B4949E2D2AF2015E005E94F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DA98872AF0CA8300E0D5C5 /* ContentView.swift */; };
 		B4949E2F2AF234E3005E94F4 /* RegisterFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4949E2E2AF234E3005E94F4 /* RegisterFormView.swift */; };
 		B4949E312AF2356C005E94F4 /* InitScreenSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4949E302AF2356C005E94F4 /* InitScreenSelector.swift */; };
+		B4949E332AF2F4B4005E94F4 /* SelectorScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4949E322AF2F4B4005E94F4 /* SelectorScreenView.swift */; };
+		B4949E362AF2F8F6005E94F4 /* ProfileScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4949E352AF2F8F6005E94F4 /* ProfileScreenView.swift */; };
+		B4949E382AF2F905005E94F4 /* GamesScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4949E372AF2F905005E94F4 /* GamesScreenView.swift */; };
+		B4949E3A2AF2F93F005E94F4 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4949E392AF2F93F005E94F4 /* HomeScreenView.swift */; };
+		B4949E3C2AF2F972005E94F4 /* FavoritesScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4949E3B2AF2F972005E94F4 /* FavoritesScreenView.swift */; };
 		B4ADD9742AF1B4D90055E3EC /* InitSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ADD9732AF1B4D90055E3EC /* InitSessionView.swift */; };
 		B4DA98862AF0CA8300E0D5C5 /* GameStreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DA98852AF0CA8300E0D5C5 /* GameStreamApp.swift */; };
 		B4DA988A2AF0CA8500E0D5C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DA98892AF0CA8500E0D5C5 /* Assets.xcassets */; };
@@ -19,6 +24,11 @@
 /* Begin PBXFileReference section */
 		B4949E2E2AF234E3005E94F4 /* RegisterFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormView.swift; sourceTree = "<group>"; };
 		B4949E302AF2356C005E94F4 /* InitScreenSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitScreenSelector.swift; sourceTree = "<group>"; };
+		B4949E322AF2F4B4005E94F4 /* SelectorScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorScreenView.swift; sourceTree = "<group>"; };
+		B4949E352AF2F8F6005E94F4 /* ProfileScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenView.swift; sourceTree = "<group>"; };
+		B4949E372AF2F905005E94F4 /* GamesScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesScreenView.swift; sourceTree = "<group>"; };
+		B4949E392AF2F93F005E94F4 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		B4949E3B2AF2F972005E94F4 /* FavoritesScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesScreenView.swift; sourceTree = "<group>"; };
 		B4ADD9732AF1B4D90055E3EC /* InitSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitSessionView.swift; sourceTree = "<group>"; };
 		B4DA98822AF0CA8300E0D5C5 /* GameStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DA98852AF0CA8300E0D5C5 /* GameStreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStreamApp.swift; sourceTree = "<group>"; };
@@ -38,6 +48,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4949E342AF2F604005E94F4 /* InitSessionViews */ = {
+			isa = PBXGroup;
+			children = (
+				B4ADD9732AF1B4D90055E3EC /* InitSessionView.swift */,
+				B4949E2E2AF234E3005E94F4 /* RegisterFormView.swift */,
+				B4949E302AF2356C005E94F4 /* InitScreenSelector.swift */,
+			);
+			path = InitSessionViews;
+			sourceTree = "<group>";
+		};
+		B4949E3D2AF2F97A005E94F4 /* ScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				B4949E352AF2F8F6005E94F4 /* ProfileScreenView.swift */,
+				B4949E372AF2F905005E94F4 /* GamesScreenView.swift */,
+				B4949E392AF2F93F005E94F4 /* HomeScreenView.swift */,
+				B4949E3B2AF2F972005E94F4 /* FavoritesScreenView.swift */,
+			);
+			path = ScreenViews;
+			sourceTree = "<group>";
+		};
+		B4949E3E2AF2F991005E94F4 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				B4949E322AF2F4B4005E94F4 /* SelectorScreenView.swift */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
 		B4DA98792AF0CA8300E0D5C5 = {
 			isa = PBXGroup;
 			children = (
@@ -57,11 +96,11 @@
 		B4DA98842AF0CA8300E0D5C5 /* GameStream */ = {
 			isa = PBXGroup;
 			children = (
+				B4949E3E2AF2F991005E94F4 /* HomeViews */,
+				B4949E3D2AF2F97A005E94F4 /* ScreenViews */,
+				B4949E342AF2F604005E94F4 /* InitSessionViews */,
 				B4DA98872AF0CA8300E0D5C5 /* ContentView.swift */,
 				B4DA98852AF0CA8300E0D5C5 /* GameStreamApp.swift */,
-				B4949E302AF2356C005E94F4 /* InitScreenSelector.swift */,
-				B4ADD9732AF1B4D90055E3EC /* InitSessionView.swift */,
-				B4949E2E2AF234E3005E94F4 /* RegisterFormView.swift */,
 				B4DA98892AF0CA8500E0D5C5 /* Assets.xcassets */,
 				B4DA988B2AF0CA8500E0D5C5 /* Preview Content */,
 			);
@@ -146,10 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4949E382AF2F905005E94F4 /* GamesScreenView.swift in Sources */,
 				B4ADD9742AF1B4D90055E3EC /* InitSessionView.swift in Sources */,
 				B4949E2F2AF234E3005E94F4 /* RegisterFormView.swift in Sources */,
+				B4949E3A2AF2F93F005E94F4 /* HomeScreenView.swift in Sources */,
+				B4949E3C2AF2F972005E94F4 /* FavoritesScreenView.swift in Sources */,
 				B4DA98862AF0CA8300E0D5C5 /* GameStreamApp.swift in Sources */,
+				B4949E332AF2F4B4005E94F4 /* SelectorScreenView.swift in Sources */,
 				B4949E312AF2356C005E94F4 /* InitScreenSelector.swift in Sources */,
+				B4949E362AF2F8F6005E94F4 /* ProfileScreenView.swift in Sources */,
 				B4949E2D2AF2015E005E94F4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
