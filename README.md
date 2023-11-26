@@ -1,2 +1,2 @@
 # gameStreamApp
-swiftui projecto
+swiftui project
