@@ -58,8 +58,9 @@ struct InicioSesionView: View {
                     
                 }.padding(EdgeInsets(top: 0, leading: 18, bottom: 0, trailing: 18))
                 
-                Button {
-                    iniciarSesion()
+                
+                NavigationLink {
+                    SelectorScreenView()
                 } label: {
                     Text("INICIAR SESIÓN")
                         .fontWeight(.bold)
@@ -68,6 +69,8 @@ struct InicioSesionView: View {
                         .padding(EdgeInsets(top: 11, leading: 18, bottom: 11, trailing: 18))
                         .overlay(RoundedRectangle(cornerRadius: 6).stroke(Color("dark-cian"), lineWidth: 2).shadow(color: Color("dark-cian"), radius: 5))
                 }.padding(EdgeInsets(top: 0, leading: 18, bottom: 110, trailing: 18))
+
+               
                 Text("Inicia sesión con redes sociales")
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .foregroundStyle(Color(.white))
@@ -93,12 +96,11 @@ struct InicioSesionView: View {
                     }.buttonStyle(.bordered).tint(Color("blue-gray"))
                 }.frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/).padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
             }
+            
         }
     }
 }
-func iniciarSesion(){
-    
-}
+
 func inicioFacebook(){
     
 }

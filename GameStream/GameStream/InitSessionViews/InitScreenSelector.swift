@@ -8,18 +8,21 @@
 import SwiftUI
 struct InitSessionView: View {
     var body: some View {
-        ZStack {
-            Color(red: 19 / 255, green: 30 / 255, blue: 53 / 255, opacity: 1.0).ignoresSafeArea()
-            VStack {
-                Image("appLogo").resizable().aspectRatio(contentMode: .fit).frame(width: 250).padding(.bottom, 40)
-                InitScreenSelector()
+        NavigationStack{
+            ZStack {
+                Color(red: 19 / 255, green: 30 / 255, blue: 53 / 255, opacity: 1.0).ignoresSafeArea()
+                VStack {
+                    Image("appLogo").resizable().aspectRatio(contentMode: .fit).frame(width: 250).padding(.bottom, 40)
+                    InitScreenSelector()
+                }
             }
         }
+        
     }
 }
 
 struct InitScreenSelector: View {
-    @State var selectorSession = false
+    @State var selectorSession = true
     var body: some View {
         VStack {
             HStack {
