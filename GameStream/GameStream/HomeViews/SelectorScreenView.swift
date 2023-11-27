@@ -8,30 +8,28 @@
 import SwiftUI
 
 struct SelectorScreenView: View {
+    @State var selectedTab : Int = 2
     var body: some View {
         
-        TabView {
+        TabView (selection: $selectedTab) {
             
             ProfileView()
                 .tabItem {
-                    Image(systemName: "person")
-                    Text("Perfil")
-                }
+                    Label("Perfil", systemImage: "person")
+                }.tag(0)
             GamesScreenView()
                 .tabItem {
-                    Image(systemName: "gamecontroller")
-                    Text("Juegos")
-                }
+                    Label("Juegos", systemImage: "gamecontroller")
+                }.tag(1)
             HomeScreenView()
                 .tabItem {
-                    Image(systemName: "house")
-                    Text("inicio")
-                }
+                    Label("Inicio", systemImage: "house")
+                }.tag(2)
             FavoritesScreenView()
                 .tabItem {
-                    Image(systemName: "heart")
-                    Text("Favoritos")
-                }
+                    Label("Favoritos", systemImage: "heart")
+                }.tag(3)
+            //147,155,168
         }
     }
 }
