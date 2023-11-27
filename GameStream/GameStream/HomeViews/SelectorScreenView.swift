@@ -8,7 +8,13 @@
 import SwiftUI
 
 struct SelectorScreenView: View {
+    
     @State var selectedTab : Int = 2
+    
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor.tabBar
+
+    }
     var body: some View {
         
         TabView (selection: $selectedTab) {
@@ -30,7 +36,8 @@ struct SelectorScreenView: View {
                     Label("Favoritos", systemImage: "heart")
                 }.tag(3)
             //147,155,168
-        }
+        }.tint(.white)
+            .toolbar(.hidden)
     }
 }
 

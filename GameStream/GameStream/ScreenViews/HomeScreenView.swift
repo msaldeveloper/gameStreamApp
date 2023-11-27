@@ -9,7 +9,14 @@ import SwiftUI
 
 struct HomeScreenView: View {
     var body: some View {
-        Text("Inicio")
+        ZStack {
+            Color(.background).ignoresSafeArea()
+            VStack {
+                Text("Inicio")
+            }
+
+        }
+            
     }
 }
 
