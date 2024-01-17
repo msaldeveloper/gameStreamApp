@@ -12,10 +12,9 @@ struct SelectorScreenView: View {
         
         TabView {
             
-            ProfileView()
-                .tabItem {
-                    Image(systemName: "person")
-                    Text("Perfil")
+            ProfileView().tabItem {
+                Image(systemName: "person.crop.circle")
+                Text("Perfil")
                 }
             GamesScreenView()
                 .tabItem {

@@ -72,7 +72,7 @@ struct InicioSesionView: View {
 
                
                 Text("Inicia sesión con redes sociales")
-                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(maxWidth: .infinity, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .foregroundStyle(Color(.white))
                     .fontWeight(.bold)
                 HStack (alignment: .center){
@@ -94,7 +94,7 @@ struct InicioSesionView: View {
                             .padding(EdgeInsets(top: 6, leading: 48, bottom: 6, trailing: 48))
                             .overlay(RoundedRectangle(cornerRadius: 6).stroke(Color(.clear), lineWidth: 2))
                     }.buttonStyle(.bordered).tint(Color("blue-gray"))
-                }.frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/).padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
+                }.frame(maxWidth: .infinity, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/).padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
             }
             
         }
